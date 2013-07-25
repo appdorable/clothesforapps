@@ -7,7 +7,7 @@ description: Free design assets to dress your apps, licensed under the creative 
 <section class="home">
   {% for post in site.posts %}
   <article>
-    <img src="/assets/artwork/{{ post.image }}">
+    <img src="/assets/artwork/{{ post.image }}" class="scale-with-grid">
     <a href="{{ post.url }}">{{ post.title }}</a>
     <p>Formats: {{ post.formats }}<br> Download: <a href="/assets/artwork/{{ post.filename }}">{{ post.filename }}</a></p>
   </article>
