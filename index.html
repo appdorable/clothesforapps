@@ -1,35 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Clothes for Apps</title>
-  <meta name="description" content="Something to do with dressing applications">
-  <link type="text/plain" rel="author" href="humans.txt">
-  <style type="text/css">
-    html { background-color: white; font: 1em/1.2 "Courier New", serif; }
-    body { color: black; margin: 10em auto; max-width: 550px; }
-    h1 { background: url(clothesforapps.png) no-repeat; font-family: arial, sans-serif; color: black; padding-left: 55px; }
-    h1:hover { background: url(changeofclothes.png) no-repeat; }
-  </style>
-  <!-- [if lt IE9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <! [endif]-->
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-19656521-1']);
-    _gaq.push(['_trackPageview']);
-    
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-</head>
-<body>
-  <section id="main">
-    <h1>Clothes for Apps</h1>
-    <p>We support nudity but sometimes it's nice to be decent.</p>
-  </section>
-</body>
-</html>
+---
+layout: default
+title: Clothese for Apps
+description: Free design assets to dress your apps, licensed under the creative commons.
+---
+
+<section class="home">
+  {% for post in site.posts %}
+  <article>
+    <img src="/assets/artwork/{{ post.image }}">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <p>Formats: {{ post.formats }}<br> Download: <a href="/assets/artwork/{{ post.filename }}">{{ post.filename }}</a></p>
+  </article>
+  {% endfor %}
+</section>

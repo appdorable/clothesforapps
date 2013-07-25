@@ -1,0 +1,4 @@
+name: Clothes for Apps
+baseurl: "/clothesforapps.com"
+pygments: true
+permalink: /:categories/:title
