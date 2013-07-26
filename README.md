@@ -18,6 +18,6 @@ Website is released under the [MIT License](http://www.opensource.org/licenses/M
 * [Skeleton](http://www.getskeleton.com)
 
 ## Thank you
-Tom Preston-Werner and Nick Quaranto creators of [Jekyll](http://jekyllrb.com)
-Dave Gamache creator of [Skeleton](http://getskeleton.com)
-Jessica Hische and Erik Marinovich of [Title Case](http://titlecase.co)
+* Tom Preston-Werner and Nick Quaranto creators of [Jekyll](http://jekyllrb.com)
+* Dave Gamache creator of [Skeleton](http://getskeleton.com)
+* Jessica Hische and Erik Marinovich of [Title Case](http://titlecase.co)
