@@ -2,7 +2,7 @@
 
 By Francis Go and Olesia Rudakova.
 
-Clothes for Apps is your free design closet for dressing your application to the nines.
+[Clothes for Apps](http://clothesforapps.com) is your free design closet for dressing your application to the nines.
 
 Say hello? hello@clothesforapps.com
 
