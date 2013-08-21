@@ -6,5 +6,5 @@ description: "If it quacks like a chicken, then it's probably not a duck"
 categories: artworks
 formats: ai, pdf, png
 filename: 0004-appdorable-chickens.zip
-image: 0004-appdorable-chickens.jpg
+image: 0004-appdorable-chickens.png
 ---

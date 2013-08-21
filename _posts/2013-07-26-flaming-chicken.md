@@ -6,5 +6,5 @@ description: "Flaming chicken"
 categories: artworks
 formats: ai, pdf, png
 filename: 0002-flaming-chicken.zip
-image: 0002-flaming-chicken.jpg
+image: 0002-flaming-chicken.png
 ---

@@ -6,5 +6,5 @@ description: "Tool pattern wallpaper"
 categories: artworks
 formats: ai, pdf, png
 filename: 0005-tool-pattern.zip
-image: 0005-tool-pattern.jpg
+image: 0005-tool-pattern.png
 ---
